@@ -1,6 +1,6 @@
 [Design]
 Version=1.0
-HierarchyMode=2
+HierarchyMode=3
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -90,25 +90,8 @@ GenerateClassCluster=0
 DocumentUniqueId=LVSGQIFG
 
 [Document4]
-DocumentPath=Versatile Link\VTRX-VTTX_(09-02-2016 12-20-24)\VTRX-VTTX.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TUKKNGUJ
-
-[Document5]
 DocumentPath=Connectors.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -123,7 +106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PINKCDGV
 
-[Document6]
+[Document5]
 DocumentPath=FPGA_IO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -140,11 +123,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HGMDDQYN
 
-[Document7]
+[Document6]
 DocumentPath=Configuration_Logic.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=0
+AnnotateStartValue=40
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=2
@@ -157,11 +140,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MYDQVEUQ
 
-[Document8]
+[Document7]
 DocumentPath=Configuration_Power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=0
+AnnotateStartValue=50
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=3
@@ -174,9 +157,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WQUAUSTI
 
-[Document9]
+[Document8]
 DocumentPath=ALCT2017_Logic.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -191,11 +174,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RJCFJISI
 
-[Document10]
+[Document9]
 DocumentPath=VTTX.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=0
+AnnotateStartValue=100
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=11
@@ -208,11 +191,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YGHXEMUV
 
-[Document11]
+[Document10]
 DocumentPath=MGT.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=0
+AnnotateStartValue=80
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=10
@@ -225,11 +208,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UBGGMOWW
 
-[Document12]
+[Document11]
 DocumentPath=ADC.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=0
+AnnotateStartValue=20
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=0
@@ -242,14 +225,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PFOJQVFE
 
-[Document13]
+[Document12]
 DocumentPath=Power.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=7
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=0
@@ -259,7 +242,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IRYPUWKE
 
-[Document14]
+[Document13]
 DocumentPath=ALCT_MEZ_LX150T.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -276,9 +259,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LISPXPLY
 
-[Document15]
+[Document14]
 DocumentPath=FPGA_Power.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -293,9 +276,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BAPDPNYX
 
-[Document16]
+[Document15]
 DocumentPath=FPGA_Ground.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -310,9 +293,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TWLGDBMH
 
-[Document17]
+[Document16]
 DocumentPath=Mechanical.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -327,7 +310,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VBFVTRVH
 
-[Document18]
+[Document17]
 DocumentPath=Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -344,7 +327,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document18]
 DocumentPath=FPGA_IO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -361,7 +344,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document19]
 DocumentPath=ALCT_MEZ_LX150T.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -378,7 +361,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document20]
 DocumentPath=ALCT_MEZ_LX150T.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -395,7 +378,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document21]
 DocumentPath=README.Txt
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1479,6 +1462,46 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Orcad SDT Schematic
+OutputName12=Orcad SDT Schematic (AutoSCH)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=Orcad v7 Capture Design
+OutputName13=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD ASCII
+OutputName14=P-CAD ASCII (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD V16 Schematic Design
+OutputName15=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Protel PCB 2.8 ASCII
+OutputName16=Protel PCB 2.8 ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1748,6 +1771,7 @@ Type110=1
 Type111=1
 Type112=1
 Type113=1
+MultiChannelAlternate=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
