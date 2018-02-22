@@ -16,8 +16,6 @@ Los Angeles, CA 90095-1547
 
 Specifications:
 ---------------
-Board material:  TU-768
-Layers:          13
 Board thickness: 0.06256"
 Board size:      4.100" x 5.350"
 Trace width/gap  4/4 mils
@@ -94,33 +92,7 @@ Layer Extension     Layer Description
 .GM16               Board Outline                           
 ------------------------------------------------------------------------------------------
 
-----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: ALCT_MEZ_LX150T.PcbDoc   12/7/17  6:26:21 PM
-----------------------------------------------------------------------------------------------------------------------------------
-
-Layer Pair : Top Layer to Bottom Layer
-ASCII RoundHoles File : ALCT_MEZ_LX150T.TXT
-
-Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
-----------------------------------------------------------------------------------------------------------------------------------
-T1      10mil (0.254mm)                                           Round             1560      PTH        120.78inch (3067.91mm)
-T2      20mil (0.508mm)                                           Round             640       PTH        39.26inch (997.19mm)
-T3      35mil (0.889mm)                                           Round             8         PTH        13.45inch (341.54mm)
-T4      47mil (1.194mm)                                           Round             8         PTH        7.77inch (197.32mm)
-T5      61mil (1.55mm)                                            Round             2         PTH        0.38inch (9.60mm)
-T6      118mil (3mm)                                              Round             2         PTH        0.51inch (13.00mm)
-T7      200mil (5.08mm)                                           Round             4         PTH        7.80inch (198.12mm)
-T8      260mil (6.604mm)                                          Round             4         PTH        8.45inch (214.59mm)
-----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              2228
-
-
-
 Special Instructions:
 ---------------------
 (1) Thieving is not allowed; please inform me if thieving is required for any part of the PCB 
 (2) Fiducial dots are placed throughout the board; please inform me if additional dots are needed
-
-
-
-
