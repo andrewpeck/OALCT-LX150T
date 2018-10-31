@@ -72,23 +72,6 @@ GenerateClassCluster=0
 DocumentUniqueId=PVXKUFLO
 
 [Document3]
-DocumentPath=Versatile Link\VTRX-VTTX_(09-02-2016 12-20-24)\VTRX-VTTX1.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LVSGQIFG
-
-[Document4]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -105,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PINKCDGV
 
-[Document5]
+[Document4]
 DocumentPath=FPGA_IO.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -122,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HGMDDQYN
 
-[Document6]
+[Document5]
 DocumentPath=Configuration_Logic.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=40
@@ -139,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MYDQVEUQ
 
-[Document7]
+[Document6]
 DocumentPath=Configuration_Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=50
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WQUAUSTI
 
-[Document8]
+[Document7]
 DocumentPath=ALCT2017_Logic.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RJCFJISI
 
-[Document9]
+[Document8]
 DocumentPath=VTTX.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=100
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YGHXEMUV
 
-[Document10]
+[Document9]
 DocumentPath=MGT.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=80
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UBGGMOWW
 
-[Document11]
+[Document10]
 DocumentPath=ADC.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=20
@@ -224,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PFOJQVFE
 
-[Document12]
+[Document11]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -241,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IRYPUWKE
 
-[Document13]
+[Document12]
 DocumentPath=ALCT_MEZ_LX150T.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LISPXPLY
 
-[Document14]
+[Document13]
 DocumentPath=FPGA_Power.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -275,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BAPDPNYX
 
-[Document15]
+[Document14]
 DocumentPath=FPGA_Ground.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -292,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TWLGDBMH
 
-[Document16]
+[Document15]
 DocumentPath=Mechanical.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -309,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VBFVTRVH
 
-[Document17]
+[Document16]
 DocumentPath=Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document17]
 DocumentPath=FPGA_IO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document18]
 DocumentPath=ALCT_MEZ_LX150T.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -360,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document19]
 DocumentPath=ALCT_MEZ_LX150T.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -378,143 +361,243 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=NC Drill\ALCT_MEZ_LX150T.DRR
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\NC Drill\ALCT_MEZ_LX150T.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=ODB\ALCT_MEZ_LX150T.REP
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=NC Drill\ALCT_MEZ_LX150T.TXT
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.G1
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=ODB\odb\steps\pcb\layers\comp_+_bot\components
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.G2
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=ODB\odb\steps\pcb\layers\comp_+_top\components
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.G3
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=ODB\odb\steps\pcb\eda\data
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.G4
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=ODB\odb\steps\pcb\layers\_1v2\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.G5
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=ODB\odb\steps\pcb\layers\_1v8\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.G6
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=ODB\odb\steps\pcb\layers\_3v3\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.G7
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=ODB\odb\steps\pcb\layers\board_outline\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.G8
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=ODB\odb\steps\pcb\layers\bottom_layer\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.G9
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=ODB\odb\steps\pcb\layers\bottom_overlay\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.G10
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=ODB\odb\steps\pcb\layers\bottom_paste\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=ODB\odb\steps\pcb\layers\bottom_solder\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=ODB\odb\steps\pcb\layers\comp_+_bot\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=ODB\odb\steps\pcb\layers\comp_+_top\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=ODB\odb\steps\pcb\layers\drill\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.GM16
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=ODB\odb\steps\pcb\layers\gnd1\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=ODB\odb\steps\pcb\layers\gnd2\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=ODB\odb\steps\pcb\layers\mid-layer_1\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=ODB\odb\steps\pcb\layers\mid-layer_2\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=ODB\odb\steps\pcb\layers\mid-layer_4\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\NC Drill\ALCT_MEZ_LX150T.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=ODB\odb\steps\pcb\layers\mid-layer_5\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\MultiWire\ALCT_MEZ_LX150T.NET
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=ODB\odb\steps\pcb\layers\mid-layer_7\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.REP
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=ODB\odb\steps\pcb\layers\top_layer\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\ALCT_MEZ_LX150T.REP
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=ODB\odb\steps\pcb\layers\top_overlay\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Gerber\ALCT_MEZ_LX150T.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=ODB\odb\steps\pcb\layers\top_paste\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\NC Drill\ALCT_MEZ_LX150T.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=ODB\odb\steps\pcb\layers\top_solder\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\BOM\Bill of Materials-ALCT_MEZ_LX150T.csv
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=ODB\odb\symbols\rect31.4961x27.5591xr3.4449_270\features
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\comp_+_bot\components
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=ODB\odb\matrix\matrix
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=ODB\odb\steps\pcb\netlists\cadnet\netlist
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Pick Place\Pick Place for ALCT_MEZ_LX150T.txt
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\_1v2\features
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=ODB\odb\steps\pcb\profile
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\_2v5\features
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=ODB\odb\steps\pcb\stephdr
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\_3v3\features
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=ODB\odb\steps\pcb\layers\drill\tools
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\board_outline\features
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\drill\features
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\gnd1\features
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\gnd2\features
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\mid-layer_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\mid-layer_2\features
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\mid-layer_4\features
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\mid-layer_5\features
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\mid-layer_7\features
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\symbols\rect23.622x27.5591xr2.9528_270\features
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\Pick Place\Pick Place for ALCT_MEZ_LX150T.txt
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for ALCT_MEZ_LX150T\ODB\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Parameter1]
@@ -847,7 +930,7 @@ Configuration20_Item1=tVersion=0|Record=EdifView
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=NPI027C75 (HP Color LaserJet CP4520 Series)
+TargetPrinter=NPI14F13B (HP LaserJet 500 color M551)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1372,36 +1455,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=SiSoft
-OutputName15=SiSoft (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
