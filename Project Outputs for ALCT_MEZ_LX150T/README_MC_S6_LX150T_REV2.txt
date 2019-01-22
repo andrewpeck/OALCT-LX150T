@@ -1,10 +1,10 @@
 UCLA High Energy Physics
 ------------------------
 
-Specifications August 07, 2018
+Specifications January 22, 2019
 
 Board:   MC_S6_LX150T
-Layout Version: 08/07/2018, rev 2
+Layout Version: 01/22/2019, rev 2
 
 Contact:
 --------
@@ -17,7 +17,7 @@ Los Angeles, CA 90095-1547
 Specifications:
 ---------------
 Board thickness: 0.06256"
-Board size:      4.100" x 5.350"
+Board size:      4.100" x 5.875"
 Trace width/gap  4/4 mils
 Plating:         ENIG
 
