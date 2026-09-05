@@ -1,0 +1,100 @@
+#+TITLE: ALCT Spartan-6 LX150T Mezzanine
+#+OPTIONS: toc:2 num:nil
+
+This repository holds the Altium design for the ALCT Spartan-6 LX150T
+mezzanine, produced for the CSC Phase 2 Upgrade. The documentation and
+design files below are archived from the CMS TWiki topic
+[[https://twiki.cern.ch/twiki/bin/view/CMS/ALCTCSCPhase2Upgrade][ALCTCSCPhase2Upgrade]].
+
+Slides from the ALCT mezzanine Production Readiness Review, held on 8 June
+2018 ([[https://indico.cern.ch/event/734723/][indico]]), provide additional information:
+[[file:assets/20180608_alct_mezzanines_prr.pdf][20180608_alct_mezzanines_prr.pdf]]. The committee conclusions from the review
+are available here: [[file:assets/ALCT_MEZ_Review_w_append.pdf][ALCT_MEZ_Review_w_append.pdf]].
+
+Below, Version 1 refers to prototypes, Version 2 has been used for the
+production runs.
+
+* Overview
+
+The ALCT Spartan-6 LX150T mezzanine is designed as a replacement mezzanine
+for ALCT-672 motherboards, intended to be used in ME2/1, ME3/1, and ME4/1.
+It also retains compatibility for ALCT-288 and ALCT-384 motherboards, but
+its use is not expected there.
+
+Relative to the 2012 Spartan-6 mezzanine, the new LX150T mezzanine adds two
+3.2 Gbps (line rate) optical links providing 5.12 Gbps of user DAQ
+bandwidth to the ODMB on a CERN radiation hard VTTx.
+
+Due to the lack of LHC synchronous (40.08 MHz) reference clock on the board
+because of a scarcity of QPLL ASICs, a commercial asynchronous 80.0 MHz
+oscillator is used for the MGT reference clock.
+
+#+CAPTION: ALCT Spartan-6 LX150T mezzanine, v2 (2019-01-23)
+#+ATTR_HTML: :width 600
+[[file:assets/LX150T_v2.png]]
+
+* Documentation
+
+- pdf: [[file:assets/ALCT_spartan-6_lx150t_specification.pdf][ALCT_spartan-6_lx150t_specification.pdf]]
+- word: [[file:assets/ALCT_spartan-6_lx150t_specification.docx][ALCT_spartan-6_lx150t_specification.docx]]
+
+* Design Files
+** Version 2
+
+- v2 2019-01-23 Vendor Files (includes Gerber, ODB, NCdrill, BOM, etc):
+  - [[file:assets/ALCT_MEZ_LX150T_v2_20190123_for_fabricator.zip][ALCT_MEZ_LX150T_v2_20190123_for_fabricator.zip]]
+- v2 2019-01-23 Project files (includes Altium files):
+  - [[file:assets/ALCT_MEZ_LX150T_PCB_PROJECT_20190123.zip][ALCT_MEZ_LX150T_PCB_PROJECT_20190123.zip]]
+- v2 2019-01-23 schematics pdf:
+  - [[file:assets/ALCT_MEZ_LX150T_Schematic_Color_2019-01-23_v2.pdf][ALCT_MEZ_LX150T_Schematic_Color_2019-01-23_v2.pdf]]
+- v2 2019-01-23 layout PDF:
+  - [[file:assets/ALCT_MEZ_LX150T_Layout_2019-01-23_v2.pdf][ALCT_MEZ_LX150T_Layout_2019-01-23_v2.pdf]]
+- v2 2019-01-23 assembly drawing:
+  - [[file:assets/ALCT_MEZ_LX150T_Assembly_Top_2019-01-23_v2.pdf][ALCT_MEZ_LX150T_Assembly_Top_2019-01-23_v2.pdf]]
+  - [[file:assets/ALCT_MEZ_LX150T_Assembly_Bottom_2019-01-23_v2.pdf][ALCT_MEZ_LX150T_Assembly_Bottom_2019-01-23_v2.pdf]]
+- v2 2019-01-23 Bill of Materials:
+  - [[file:assets/ALCT_MEZ_LX150T_BOM_2018-10-31_v2.csv][ALCT_MEZ_LX150T_BOM_2018-10-31_v2.csv]]
+- UCF File:
+  - [[file:assets/LX150T_v1_alct672.ucf][LX150T_v1_alct672.ucf]] (unchanged from v1)
+- ODMB modified firmware for PRBS link testing (temporary, non-official,
+  for testing--- new ODMB firmware can substitute for this already. please
+  contact [[https://twiki.cern.ch/twiki/bin/view/CMS/UCSB][UCSB]]).
+  - project: [[file:assets/odmb_alct_test.tar.gz][odmb_alct_test.tar.gz]]
+  - bit: [[file:assets/odmb_ucsb_v2.bit][odmb_ucsb_v2.bit]]
+  - chipscope: [[file:assets/odmb_alct_test.cpj][odmb_alct_test.cpj]]
+
+** Version 1
+
+- v1 2017-12-06 prototype files (includes schematic, layout, BOM, gerbers):
+  - [[file:assets/LX150T_v1_20171206.tar.gz][LX150T_v1_20171206.tar.gz]]
+- v1 2017-12-06 prototype schematics PDF:
+  - [[file:assets/ALCT_MEZ_LX150T_Schematic_Color_2017-12-06_v1.pdf][ALCT_MEZ_LX150T_Schematic_Color_2017-12-06_v1.pdf]]
+- v1 2017-12-06 layout schematics PDF:
+  - [[file:assets/ALCT_MEZ_LX150T_Layout_2017-12-06_v1.pdf][ALCT_MEZ_LX150T_Layout_2017-12-06_v1.pdf]]
+- v1 2017-12-06 prototype assembly drawing:
+  - [[file:assets/ALCT_MEZ_LX150T_Assembly_Bottom_2017-12-06_v1.pdf][ALCT_MEZ_LX150T_Assembly_Bottom_2017-12-06_v1.pdf]]
+  - [[file:assets/ALCT_MEZ_LX150T_Assembly_Top_2017-12-06_v1.pdf][ALCT_MEZ_LX150T_Assembly_Top_2017-12-06_v1.pdf]]
+- UCF File:
+  - [[file:assets/LX150T_v1_alct672.ucf][LX150T_v1_alct672.ucf]]
+
+* Radiation testing
+
+For 3000 fb^-1 of HL-LHC running, the maximum expected TID for the
+ALCT-LX150T is 3 kRad.
+
+All parts used on the ALCT-LX150T ([[file:assets/Bill_of_Materials-ALCT_MEZ_LX150T.csv][BOM]]) have been tested with TIDs equal or
+greater to 30 kRad. Slides 62-64 of the ALCT talk in the ESR
+([[file:assets/18-07-02_Andrew_Peck_-_alct_mezzanines_esr_v6.pdf][pdf]]) lay out the tests for each part:
+
+- Most parts were also used in the ALCT-S6 board, installed during LS1.
+  These parts were successfully tested in June 2012 at the UC Davis
+  cyclotron to 30 kRad ([[file:assets/12-07-20_Jay_Hauser_-_ALCT_mezz_for_ME11-2.pdf][pdf]])
+- The new XC6SLX150T FPGA is also used in the MPC and was successfully
+  tested in April 2013 at the UC Davis cyclotron to 100 kRad
+  ([[file:assets/13-04-01_Davis_LX150T_MPC_tests.pdf][pdf]]). MGTs were successfully tested in Jun 2018 to 15 kRad
+  ([[file:assets/18-07-25_TAMU_test_Feb_2017.pdf][pdf]])
+- The new oscillators (ASV-33.000MHZ-EJ-T and SG3225VAN 80.000000M-KEGA3)
+  were tested in April 2018 at the Texas A&M reactor to 30 kRad
+  ([[file:assets/18-07-21_TAMU_test_Mar_2018.pdf][pdf]])
+- The VTTx is a radiation-hard transceiver qualified by CERN
+  ([[file:assets/VTRx_Spec_v2.2.pdf][pdf]])
